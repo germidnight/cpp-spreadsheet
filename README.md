@@ -8,7 +8,9 @@
 
 ## Установка ANTLR
 https://github.com/antlr/antlr4/blob/master/doc/getting-started.md
+
 ANTLR - ANother Tool for Language Recognition
+
 для windows
 1. должны быть установлены python3 и JDK
 2. добавить ...\local-packages\python312\scripts в переменную PATH (версию python исправить на свою `python --version`)
@@ -27,6 +29,7 @@ ANTLR - ANother Tool for Language Recognition
 * Синтаксические правила определяют, как может выглядеть выражение expr — будущий узел дерева разбора. Вариант выше по списку имеет больший приоритет.
 
 Сгенерировать исполняемые файлы на С++: `antlr4 -Dlanguage=Cpp Formula.g4`
+
 Что сгенерировал ANTLR:
 - Formula.interp, Formula.tokens — вспомогательные текстовые файлы;
 - FormulaLexer.{cpp, h} — код лексического анализатора;
